@@ -1,0 +1,18 @@
+.contents{
+    padding: 5%;
+}
+.footerContainer{
+    background-color: #282828;
+    color: #9A9A93;
+    margin: auto;
+}
+.section{
+    display: inline-flex;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.subSection{
+    margin-left: 1%;
+    margin-right: 1%;
+}

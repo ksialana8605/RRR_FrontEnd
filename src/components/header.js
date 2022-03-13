@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes, Link, Outlet } from "react-router-dom";
 import SearchButton from '../img/search.png';
+import RRR_FullLogo from '../img/Logo_Full_White.png';
 
 class Header extends React.Component{
     render () {
@@ -11,7 +12,9 @@ class Header extends React.Component{
             <Navbar bg='dark' variant='dark'>
                 <Container>
                     {/* Brand Icon */}
-                    <Navbar.Brand href='/'>Radical Random Recipes</Navbar.Brand>
+                    <Navbar.Brand href='/' bg='light'>
+                        <img src={RRR_FullLogo} alt='Radical Random Recipes Logo' height='70'/>
+                    </Navbar.Brand>
 
                     {/* Pages */}
                     <Nav className="me-auto">
@@ -26,14 +29,6 @@ class Header extends React.Component{
                         </Nav.Link>
                     </Nav>
                 </Container>
-                {/* <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/account/login'>Login</Link></li>
-                    <li><Link to='/account/profile'>Profile</Link></li>
-                    <li><Link to='/search'>Search</Link></li>
-                    <li><Link to='/account/recipes'>My Recipes</Link></li>
-                </ul> */}
                 <div className='accountBox'>
                     Welcome User!
                 </div>

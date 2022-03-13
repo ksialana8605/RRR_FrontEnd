@@ -8,6 +8,7 @@ import Login from './pages/account/login';
 import Profile from './pages/account/profile';
 import Search from './pages/search';
 import MyRecipes from './pages/account/myrecipes';
+import Footer from './components/footer';
 
 
 function App () {
@@ -25,6 +26,7 @@ function App () {
                         <Route exact path='/account/recipes' element={<MyRecipes/>}/>
                     </Routes>
                 </div>
+                <Footer/>
             </div>
         </BrowserRouter>
     );

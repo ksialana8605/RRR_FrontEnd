@@ -1,12 +1,15 @@
 // Overwrites
-$primary: red;
-$secondary: green;
+$primary: #59981A;
+$secondary: #81B622;
 $dark: #282828;
-$light: #fdd;
+$light: #ECF87F;
 $success: #0fa;
 $info: #555;
 $warning: yellow;
 $danger: red;
+
+// outlines
+$outline-primary: #9A9A93;
 
 // Import bootstrap styles
 @import '~bootstrap/scss/bootstrap.scss';

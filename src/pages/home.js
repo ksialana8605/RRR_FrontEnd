@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 
 class Home extends React.Component{
     render () {
-        return <div>
-            This is the Home Page
+        return <div className='contents'>
+            <h1>Our Favorite Recipes</h1>
+            <div className='container'>
+                Something goes in here
+            </div>
         </div>
     }
 }
