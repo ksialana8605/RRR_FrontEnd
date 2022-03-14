@@ -9,6 +9,7 @@ import Profile from './pages/account/profile';
 import Search from './pages/search';
 import MyRecipes from './pages/account/myrecipes';
 import Footer from './components/footer';
+import ToS from './pages/tos';
 
 
 function App () {
@@ -24,6 +25,7 @@ function App () {
                         <Route exact path='/account/profile' element={<Profile/>}/>
                         <Route exact path='/search' element={<Search/>}/>
                         <Route exact path='/account/recipes' element={<MyRecipes/>}/>
+                        <Route exact path='/tos' element={ToS}/>
                     </Routes>
                 </div>
                 <Footer/>
