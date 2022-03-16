@@ -19,7 +19,7 @@ function App () {
                 <Header />
                 <div className='content'>
                     <Routes>
-                        <Route index exact path='/' element={<Home/>}/>
+                        <Route index exact path='/' element={<Home color='orange'/>}/>
                         <Route exact path='/about' element={<About/>}/>
                         <Route exact path='/account/login' element={<Login/>}/>
                         <Route exact path='/account/profile' element={<Profile/>}/>
