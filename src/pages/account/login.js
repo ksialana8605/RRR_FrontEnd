@@ -11,7 +11,7 @@ class Login extends React.Component{
                 <img height='120px' src={RRR_FullLogo} alt='Radical Random Recipes Logo'/>
                 <br/>
                 <h2>LOGIN</h2>
-                <form method='' action=''>
+                <form method='TODO: ' action='TODO: '>
                     <input type='text' name='username'placeholder='Username'/>
                     <br/>
                     <input type='password' name='password' placeholder='Password'/>
@@ -20,10 +20,10 @@ class Login extends React.Component{
                     <input type='submit' value='Login'/>
                 </form>
                 <div>
-                    <div className='loginLink'>
+                    <div>
                         <Link to='TODO: '>Forgot Username?</Link>
                     </div>
-                    <div className='loginLink'>
+                    <div>
                         <Link to='TODO: '>Forgot Password?</Link>
                     </div>
                 </div>

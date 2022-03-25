@@ -37,12 +37,13 @@ div.loginBox>h2{
 div.loginBox>form>input[type=submit]{
     color: white;
     background-color: #282828;
+    margin-top: 20px;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     font-size: 1.5em;
     width: 50%;
 }
-div.loginBox>form>input[type=text],input[type=password]{
+div.loginBox>form>input[type=text],input[type=password],input[type=email]{
     width: 80%;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -51,7 +52,6 @@ div.loginBox>form>input[type=text],input[type=password]{
 div.loginBox>div{
     margin-top: 15px;
 }
-.loginLink{
-    display: flex;
-    justify-content: space-around;
+.inputLabel{
+    font-size: .8em;
 }
